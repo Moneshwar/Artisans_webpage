@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Sections */
+.colored-section {
+  background-color: #6834d4;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Title Section */
+#title {
+  background-color: #ebb481;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* Testimonial Section */
+#testimonials {
+  background-color: #d3d3d3;
+  color: #47294c;
+}
+.testimonial-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 30%;
+  border-radius: 0.5rem;
+  margin: 20px;
+}
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.carousel-control-prev,
+.carousel-control-next {
+  align-self: flex-end;
+}
